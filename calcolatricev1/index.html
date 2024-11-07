@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calcolatrice Online</h1>
+        <div class="input-container">
+            <input style="width: 100%;" placeholder="Primo numero" type="text" id="demo">
+            <input style="width: 100%;" placeholder="Secondo numero" type="text" id="demo2">
+        </div>
+        <div class="button-container">
+            <input class="button" type="button" value="+" onclick="somma()">
+            <input class="button" type="button" value="-" onclick="sottrazione()">
+            <input class="button" type="button" value="×" onclick="moltiplicazione()">
+            <input class="button" type="button" value="÷" onclick="divisione()">
+        </div>
+        <div>
+            <input id="uguale" class="button" type="button" value="=" onclick="uguale()">
+        </div>
+        <div>   
+            <p class="output" id="dest">risultato</p>
+        </div>
+    </div>
+</body>
+</html>
