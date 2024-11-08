@@ -29,3 +29,4 @@ document.addEventListener("keydown", function(event) {
         schermo.value += event.key;
     }
 });
+};
